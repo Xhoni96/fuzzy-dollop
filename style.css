@@ -230,15 +230,6 @@ img {
   /* height: 100%; */
 }
 
-.portfolio img:hover {
-  transform: scale(1.1);
-  filter: brightness(70%);
-}
-
-.portfolio img:active {
-  transform: scale(2);
-}
-
 footer {
   margin-top: 2rem;
   background-color: var(--dark);
@@ -266,6 +257,12 @@ footer p:hover {
     font-size: 50%;
   }
 }
+@media only screen and (min-width:75em) {
+.portfolio img:hover {
+  transform: scale(1.1);
+  filter: brightness(70%);
+}
+}
 @media only screen and (max-width: 50em) {
   body {
     margin: 3rem 2rem;
@@ -278,6 +275,7 @@ footer p:hover {
     font-size: 2.4rem;
   }
 }
+
 @media only screen and (max-width: 43.75em) {
   .top-container {
     grid-template-areas:
