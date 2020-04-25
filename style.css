@@ -317,10 +317,10 @@ footer p:hover {
   html {
 /*     font-size: 37.5%; */
   }
-/*    .top-container {
+    .top-container {
     grid-template-areas:
       "showcase "
       "top-box-a"
       "top-box-b";
-  } */
+  } 
 }
