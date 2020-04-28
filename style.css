@@ -227,12 +227,12 @@ img {
   border-radius: 3px;
   box-shadow: var(--shadow);
   cursor: pointer;
-  /* height: 100%; */
+  height: 100%;
   transform:scale(1.16);
   transition: .4s ease-in-out;
 }
 
-figure {
+.portfolio figure {
   overflow:hidden;
 }
 
