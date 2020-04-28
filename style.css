@@ -255,6 +255,7 @@ footer p:hover {
   transform: rotate(5deg) scale(1.3);
   color: #55c57a;
   transition: 0.4s ease;
+  cursor:pointer;
 }
 /* ! MEDIA QUERIES */
 
