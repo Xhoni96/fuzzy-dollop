@@ -266,7 +266,7 @@ footer p:hover {
 }
 @media only screen and (min-width:75em) {
 .portfolio img:hover {
-  transform: scale(1.16);
+  transform: scale(1.06);
   filter: brightness(100%);
 }
 }
