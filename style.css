@@ -195,6 +195,7 @@ img {
   grid-template-columns: repeat(2, 1fr);
   padding: 4.8rem;
 }
+
 .info img {
   object-fit: cover;
   width: 100%;
@@ -226,8 +227,13 @@ img {
   border-radius: 3px;
   box-shadow: var(--shadow);
   cursor: pointer;
-  transition: 0.2s ease-in;
   /* height: 100%; */
+  transform:scale(1.16);
+  transition: .4s ease-in-out;
+}
+
+figure {
+  overflow:hidden;
 }
 
 footer {
@@ -259,8 +265,8 @@ footer p:hover {
 }
 @media only screen and (min-width:75em) {
 .portfolio img:hover {
-  transform: scale(1.1);
-  filter: brightness(70%);
+  transform: scale(1.16);
+  filter: brightness(100%);
 }
 }
 @media only screen and (max-width: 50em) {
