@@ -272,6 +272,11 @@ footer p:hover {
     filter: brightness(100%);
   }
 }
+@media only screen and (min-width: 43.75em) {
+  .info img {
+    height: 100%;
+  }
+} 
 @media only screen and (max-width: 50em) {
   body {
     margin: 3rem 2rem;
